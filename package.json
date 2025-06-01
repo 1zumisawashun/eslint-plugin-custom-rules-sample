@@ -29,5 +29,9 @@
     "eslint-config-next": "15.3.3",
     "eslint-plugin-custom-rules": "file:eslint-plugin-custom-rules",
     "typescript": "^5"
+  },
+  "volta": {
+    "node": "23.6.0",
+    "npm": "11.2.0"
   }
 }
