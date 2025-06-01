@@ -10,7 +10,8 @@
     "lint:js": "eslint 'app/**/*.{tsx,ts}' --cache",
     "lint:js:fix": "npm run lint:js -- --fix",
     "lint:js:inspect": "npx eslint --inspect-config",
-    "lint:js:watch": "npx tsc -p ./eslint-plugin-custom-rules/tsconfig.json --watch"
+    "lint:js:watch": "npx tsc -p ./eslint-plugin-custom-rules/tsconfig.json --watch",
+    "lint:js:test": "vitest"
   },
   "dependencies": {
     "next": "15.3.3",
@@ -28,7 +29,8 @@
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
     "eslint-plugin-custom-rules": "file:eslint-plugin-custom-rules",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^3.1.4"
   },
   "volta": {
     "node": "23.6.0",

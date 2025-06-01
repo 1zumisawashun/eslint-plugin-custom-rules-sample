@@ -20,7 +20,7 @@ const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
     name: "custom-rules",
-    files: ["**/*.{ts,tsx}"],
+    files: ["app/**/*.{ts,tsx}"],
     plugins: { "custom-rules": eslintPluginCustomRules },
     rules: {
       "custom-rules/disallow-identifiers": "error",
