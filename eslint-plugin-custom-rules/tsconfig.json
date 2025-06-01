@@ -1,0 +1,5 @@
+{
+  "extends": "@tsconfig/strictest/tsconfig",
+  "compilerOptions": { "outDir": "./rules", "rootDir": "./src" },
+  "include": ["src/**/index.ts"]
+}
